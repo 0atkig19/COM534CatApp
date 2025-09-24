@@ -5,4 +5,17 @@ fun main() {
     clyde.walk()
     println(binnie)
     println(clyde)
+
+    val flathead = Cat("Flathead", 7, 10)
+    val cupra = Cat("Cupra", 2, 7)
+
+    for (i in 1..2) {
+        flathead.eat()
+    }
+    println(flathead)
+
+    for (i in 1..4) {
+        cupra.walk()
+    }
+    println(cupra)
 }
